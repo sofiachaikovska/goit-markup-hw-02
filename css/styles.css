@@ -24,20 +24,28 @@ a {
 ul {
   list-style-type: none;
 }
+
+address {
+  font-style: normal;
+}
 /* END Base */
 
 .logo {
-  color: var(--c-background-dark);
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
+.logo:focus {
+  color: #404bbf;
+}
+
 .accent {
-  color: #4d5ae5;
+  color: var(--c-background-dark);
 }
 .nav-link {
   color: var(--c-background-dark);
@@ -48,16 +56,16 @@ ul {
   color: #404bbf;
 }
 
-.email {
+.address {
   color: var(--c-paragraphs);
 }
 
-.email:hover {
+.address:hover {
   color: #404bbf;
 }
 
-.telephone {
-  color: var(--c-paragraphs);
+.address:focus {
+  color: #404bbf;
 }
 
 .hero-section {
@@ -69,6 +77,8 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -79,13 +89,16 @@ ul {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.04em;
+  line-height: 1.5;
   border: none;
-  padding: 16px 32px;
-  border-radius: 4px;
   cursor: pointer;
 }
 
 .hero-button:hover {
+  background-color: #404bbf;
+}
+
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -106,6 +119,8 @@ ul {
   color: var(--c-background-dark);
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .ourteam-section {
@@ -119,10 +134,12 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .ourteam-names {
   color: var(--c-background-dark);
+  background-color: var(--c-primary);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -136,6 +153,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .portfolio-names {
@@ -150,11 +168,17 @@ ul {
 }
 
 .footer-logo {
-  color: var(--c-background-light);
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.footer-accent {
+  color: var(--c-background-light);
 }
 
 .footer-paragraph {
