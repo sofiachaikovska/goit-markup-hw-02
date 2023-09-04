@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -123,6 +123,13 @@ address {
   letter-spacing: 0.02em;
 }
 
+.advantages-section-paragraph {
+  color: var(--c-paragraphs);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .ourteam-section {
   background-color: var(--c-background-light);
 }
@@ -146,8 +153,19 @@ address {
   letter-spacing: 0.02em;
 }
 
+.teammembers {
+  background-color: var(--c-primary);
+}
+
+.ourteam-section-paragraph {
+  color: var(--c-paragraphs);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .ourportfolio-title {
-  color: var(--c-background-dark);
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -160,6 +178,13 @@ address {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.ourportfolio-section-paragraph {
+  color: var(--c-paragraphs);
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
