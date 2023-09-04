@@ -56,6 +56,14 @@ address {
   color: #404bbf;
 }
 
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
 .address {
   color: var(--c-paragraphs);
 }
@@ -90,7 +98,6 @@ address {
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
-  border: none;
   cursor: pointer;
 }
 
@@ -100,19 +107,6 @@ address {
 
 .hero-button:focus {
   background-color: #404bbf;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .advantages-section-title {
@@ -175,6 +169,7 @@ address {
 }
 
 .portfolio-names {
+  color: var(--c-background-dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
